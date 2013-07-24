@@ -1,0 +1,112 @@
+GIT
+  remote: git://github.com/rubycut/guard-spork.git
+  revision: fc261648f15e717c66868912c49512c4f7db0f0c
+  branch: no_empty_env_merge
+  specs:
+    guard-spork (1.2.0)
+      childprocess (>= 0.2.3)
+      guard (>= 1.1)
+      spork (>= 0.8.4)
+      sys-proctable
+
+GEM
+  specs:
+    addressable (2.3.2)
+    builder (3.0.4)
+    childprocess (0.3.5)
+      ffi (~> 1.0, >= 1.0.6)
+    coderay (1.0.9)
+    cucumber (1.2.1)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 2.11.0)
+      json (>= 1.4.6)
+    diff-lcs (1.1.3)
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    eventmachine (1.0.0)
+    ffi (1.3.1)
+    formatador (0.2.4)
+    gherkin (2.11.1)
+      json (>= 1.4.6)
+    guard (1.8.1)
+      formatador (>= 0.2.4)
+      listen (>= 1.0.0)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-bundler (1.0.0)
+      bundler (~> 1.0)
+      guard (~> 1.1)
+    guard-cucumber (1.3.2)
+      cucumber (>= 1.2.0)
+      guard (>= 1.1.0)
+    guard-livereload (1.0.0)
+      em-websocket (>= 0.2.0)
+      guard (>= 1.1.0)
+      multi_json (~> 1.0)
+    guard-rack (1.3.1)
+      ffi (~> 1.3.1)
+      guard (~> 1.1)
+      libnotify (~> 0.1.3)
+      rb-inotify (>= 0.5.1)
+      spoon (~> 0.0.1)
+    guard-rspec (1.2.1)
+      guard (>= 1.1)
+    guard-shell (0.5.1)
+      guard (>= 1.1.0)
+    json (1.7.5)
+    libnotify (0.1.4)
+      ffi (>= 0.6.2)
+    listen (1.2.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
+    lumberjack (1.0.4)
+    method_source (0.8.1)
+    multi_json (1.3.6)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rack-livereload (0.3.6)
+      rack
+    rb-fsevent (0.9.3)
+    rb-inotify (0.9.0)
+      ffi (>= 0.5.0)
+    rb-kqueue (0.2.0)
+      ffi (>= 0.5.0)
+    rb-readline (0.5.0)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.0)
+    slop (3.4.5)
+    spoon (0.0.4)
+      ffi
+    spork (0.9.2)
+    sys-proctable (0.9.1)
+    thor (0.18.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  guard (= 1.8.1)
+  guard-bundler
+  guard-cucumber
+  guard-livereload
+  guard-rack
+  guard-rspec
+  guard-shell
+  guard-spork!
+  rack-livereload
+  rb-readline
+  rspec
+  spork
