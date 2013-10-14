@@ -1,0 +1,10 @@
+# example project for https://github.com/guard/guard/issues/467
+
+
+How to reproduce:
+
+run: bundle exec guard
+then save in editor or touch file spec/my_spec.rb
+it will run and stop on pry prompt, but you will not longer see that ware you tying.
+
+# open Guardfile, add interactor: off, and repeat above steps and now it works
