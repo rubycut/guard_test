@@ -11,5 +11,5 @@ gem "guard", "= 1.8.1"
   gem "guard-shell"
   gem "guard-rack"
   # for better pry guard integration
-  # gem "rb-readline"
+  gem "rb-readline"
   gem "rspec"

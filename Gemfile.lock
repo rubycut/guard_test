@@ -79,6 +79,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    rb-readline (0.5.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -107,5 +108,6 @@ DEPENDENCIES
   guard-shell
   guard-spork!
   rack-livereload
+  rb-readline
   rspec
   spork
